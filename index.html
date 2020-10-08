@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, user-scalable=no"></meta>
+    <title></title>
+  </head>
+  <body>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+
+
+    <div class="rounded-social-buttons">
+                      <a class="social-button facebook" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                      <a class="social-button twitter" href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                      <a class="social-button linkedin" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                      <a class="social-button youtube" href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+                      <a class="social-button instagram" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                  </div>
+
+
+<div class="timer">
+
+
+
+                  <!-- Timer -->
+                  <script src="https://code.jquery.com/jquery-1.5.2.min.js"></script>
+
+<div id="s">
+    <h1>Stopwatch</h1>
+    <span id="sw_h">00</span><span>&nbsp;:</span>
+    <span id="sw_m">00</span><span>&nbsp;:</span>
+    <span id="sw_s">00</span><span>&nbsp;:</span>
+    <span id="sw_ms">00</span>
+    <br/>
+    <br/>
+    <input type="button" value="START" id="sw_start" />
+    <input type="button" value="PAUSE" id="sw_pause" />
+    <input type="button" value="RESET" id="sw_reset" />
+    <br/>
+    <br/>
+</div>
+<div id="c">
+    <h1>Countdown</h1>
+    <span id="cd_h">00</span><span>&nbsp;:</span>
+    <span id="cd_m">00</span><span>&nbsp;:</span>
+    <span id="cd_s">00</span><span>&nbsp;:</span>
+    <span id="cd_ms">00</span>
+    <br/>
+    <br/>
+    <input type="button" value="START" id="cd_start" />
+    <input type="button" value="PAUSE" id="cd_pause" />
+    <input type="button" value="RESET" id="cd_reset" />
+    <br/>
+    <br/>
+    <input type="number" value="15" id="cd_minutes" />
+  <i id="minutes">Minutes</i>
+</div>
+<div id="switch">
+<button id="stopwatch">STOPWATCH</button>
+  <p style="margin: 0px;height: 5px;"></p>
+<button id="countdown">COUNTDOWN</button>
+</div>
+<script src="timer.js"></script>
+</div>
+
+  </body>
+</html>

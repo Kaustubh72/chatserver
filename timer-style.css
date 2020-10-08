@@ -1,0 +1,57 @@
+body {
+  /*background-image:url("http://devwild.nl/pattern.png");*/
+  background: white;
+}
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+input {
+    padding:4px;}
+
+div {
+    padding:16px;
+    text-align:center;
+}
+
+#switch {
+  margin: 0 auto;
+}
+
+#stopwatch, #countdown, input[type="button"] {
+  text-decoration: none;
+  color: #FFF;
+  background-color: #3F51B5;
+  text-align: center;
+  letter-spacing: .5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 2px;
+  display: inline-block;
+  height: 36px;
+  line-height: 36px;
+  outline: 0;
+  padding: 0 1rem;
+  text-transform: uppercase;
+  vertical-align: middle;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  text-indent: 0px;
+
+}
+
+span {
+  font-size: 36px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+}
+
+#minutes {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+#stopwatch, #countdown {
+  width: 130px;
+}
